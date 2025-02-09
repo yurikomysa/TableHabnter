@@ -15,6 +15,7 @@ class Settings(BaseSettings):
     LOG_ROTATION: str = "10 MB"
     DB_URL: str = 'sqlite+aiosqlite:///data/db.sqlite3'
     TABLES_JSON: str = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dao", "tables.json")
+    SLOTS_JSON: str = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dao", "slots.json")
     model_config = SettingsConfigDict(
         env_file=os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".env")
     )

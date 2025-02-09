@@ -1,9 +1,10 @@
 from bot.dao.models import User, Table, TimeSlot, Booking
 import asyncio
+from bot.dao.init_logic import init_db
 from aiogram.types import BotCommand, BotCommandScopeDefault
 from loguru import logger
 from bot.config import bot, dp, settings
-from bot.dao.database import initialize_db
+from bot.dao.database import async_session_maker
 from bot.dao.database_middleware import DatabaseMiddlewareWithoutCommit, DatabaseMiddlewareWithCommit
 from bot.user.router import router as user_router
 
@@ -16,7 +17,7 @@ async def set_commands():
 
 # Функция, которая выполнится когда бот запустится
 async def start_bot():
-    await initialize_db(Table, TimeSlot, drop=True, add_slots=True, add_tables=True)
+    # await init_db()
     dp.update.middleware.register(DatabaseMiddlewareWithoutCommit())
     dp.update.middleware.register(DatabaseMiddlewareWithCommit())
     await set_commands()

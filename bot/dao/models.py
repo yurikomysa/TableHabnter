@@ -1,7 +1,8 @@
 from datetime import datetime
-from sqlalchemy import BigInteger, Integer, ForeignKey, TIMESTAMP, Date, text, Boolean
-from sqlalchemy.orm import relationship, Mapped, mapped_column
+from sqlalchemy import BigInteger, String
 from bot.dao.database import Base
+from sqlalchemy import Integer, Date, Boolean, ForeignKey
+from sqlalchemy.orm import relationship, Mapped, mapped_column
 
 
 class User(Base):
@@ -27,10 +28,18 @@ class TimeSlot(Base):
     __tablename__ = "time_slots"
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
-    start_time: Mapped[datetime] = mapped_column(TIMESTAMP)
-    end_time: Mapped[datetime] = mapped_column(TIMESTAMP)
-    booking_status: Mapped[bool] = mapped_column(default=True, server_default=text("false"))
-    bookings: Mapped[list["Booking"]] = relationship("Booking", back_populates="time_slot")
+    # Используем String для времени, так как SQLite не имеет встроенного типа Time
+    start_time: Mapped[str] = mapped_column(String(5), nullable=False)  # формат: HH:MM
+    end_time: Mapped[str] = mapped_column(String(5), nullable=False)  # формат: HH:MM
+
+    bookings: Mapped[list["Booking"]] = relationship(
+        "Booking",
+        back_populates="time_slot",
+        cascade="all, delete-orphan"
+    )
+
+    def __repr__(self) -> str:
+        return f"TimeSlot(id={self.id}, {self.start_time}-{self.end_time})"
 
 
 class Booking(Base):
