@@ -17,13 +17,13 @@ class TimeSlotBase(BaseModel):
 
 
 async def add_tables_to_db(session: AsyncSession):
-    with open(settings.TABLES_JSON, 'r') as file:
+    with open(settings.TABLES_JSON, 'r', encoding='utf-8') as file:
         tables_data = json.load(file)
     await TableDAO(session).add_many([TableBase(**table) for table in tables_data])
 
 
 async def add_time_slots_to_db(session: AsyncSession):
-    with open(settings.SLOTS_JSON, 'r') as file:
+    with open(settings.SLOTS_JSON, 'r', encoding='utf-8') as file:
         tables_data = json.load(file)
     await TimeSlotUserDAO(session).add_many([TimeSlotBase(**table) for table in tables_data])
 

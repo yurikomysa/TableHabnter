@@ -1,10 +1,8 @@
-from bot.dao.models import User, Table, TimeSlot, Booking
 import asyncio
 from bot.dao.init_logic import init_db
 from aiogram.types import BotCommand, BotCommandScopeDefault
 from loguru import logger
 from bot.config import bot, dp, settings
-from bot.dao.database import async_session_maker
 from bot.dao.database_middleware import DatabaseMiddlewareWithoutCommit, DatabaseMiddlewareWithCommit
 from bot.user.router import router as user_router
 
