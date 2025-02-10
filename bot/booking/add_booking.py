@@ -13,13 +13,21 @@ from bot.dao.database import async_session_maker
 async def get_all_tables():
     async with async_session_maker() as session:
         tables = await TableDAO(session).find_all()
+    return {"tables": [i.to_dict() for i in tables]}
 
-    return [i.to_dict() for i in tables]
+
+def create_button(**kwargs):
+    return Button(
+        Const("Go"),
+        id="go",
+    )
 
 
 def create_count_table():
     list_group = [Button(Const(str(i)), id=str(i)) for i in range(1, 7)]
-    list_group.append(Button(Const("Отмена"), id=""))
+    list_group.append(Button(Const("Отмена"), id="cancel"))
+    return list_group
+
 
 get_count = Window(
     Const("Выберите количество гостей: "),
