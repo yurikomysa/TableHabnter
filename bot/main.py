@@ -1,10 +1,14 @@
 import asyncio
+
+from aiogram_dialog import setup_dialogs
+
 from bot.dao.init_logic import init_db
 from aiogram.types import BotCommand, BotCommandScopeDefault
 from loguru import logger
 from bot.config import bot, dp, settings
 from bot.dao.database_middleware import DatabaseMiddlewareWithoutCommit, DatabaseMiddlewareWithCommit
 from bot.user.router import router as user_router
+from bot.booking.add_booking import dialog as booking_dialog
 
 
 # Функция, которая настроит командное меню (дефолтное для всех пользователей)
@@ -15,10 +19,13 @@ async def set_commands():
 
 # Функция, которая выполнится когда бот запустится
 async def start_bot():
-    # await init_db()
+    if settings.INIT_DB:
+        await init_db()
+    setup_dialogs(dp)
     dp.update.middleware.register(DatabaseMiddlewareWithoutCommit())
     dp.update.middleware.register(DatabaseMiddlewareWithCommit())
     await set_commands()
+    dp.include_router(booking_dialog)
     dp.include_router(user_router)
 
     for admin_id in settings.ADMIN_IDS:

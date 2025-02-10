@@ -11,6 +11,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class Settings(BaseSettings):
     BOT_TOKEN: str
     ADMIN_IDS: List[int]
+    INIT_DB: bool
     FORMAT_LOG: str = "{time:YYYY-MM-DD at HH:mm:ss} | {level} | {message}"
     LOG_ROTATION: str = "10 MB"
     DB_URL: str = 'sqlite+aiosqlite:///data/db.sqlite3'

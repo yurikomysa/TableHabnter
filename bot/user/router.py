@@ -3,7 +3,9 @@ from aiogram.filters import CommandStart
 from aiogram.fsm.context import FSMContext
 from aiogram.types import Message, CallbackQuery
 from aiogram.dispatcher.router import Router
+from aiogram_dialog import DialogManager, StartMode
 from sqlalchemy.ext.asyncio import AsyncSession
+from bot.booking.state import BookingState
 from bot.dao.dao import UserDAO
 from bot.user.kbs import main_user_kb
 from bot.user.schemas import SUser
@@ -40,3 +42,9 @@ async def cmd_about(call: CallbackQuery):
                   "🕐 Работаем 24/7, потому что настоящие разработчики не спят😉\n\n"
                   "Приходите к нам, чтобы отладить свой аппетит! 🍽️💻")
     await call.message.edit_text(about_text, reply_markup=main_user_kb(call.from_user.id))
+
+
+@router.callback_query(F.data == "book_table")
+async def start_dialog(call: CallbackQuery, dialog_manager: DialogManager):
+    await call.answer("Бронирование столика")
+    await dialog_manager.start(state=BookingState.count, mode=StartMode.RESET_STACK)
