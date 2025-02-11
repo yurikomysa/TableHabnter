@@ -1,4 +1,5 @@
 import asyncio
+import locale
 
 from aiogram_dialog import setup_dialogs
 
@@ -19,6 +20,7 @@ async def set_commands():
 
 # Функция, которая выполнится когда бот запустится
 async def start_bot():
+    locale.setlocale(locale.LC_TIME, 'Russian_Russia.1251')
     if settings.INIT_DB:
         await init_db()
     setup_dialogs(dp)

@@ -8,3 +8,4 @@ class BookingState(StatesGroup):
     booking_time = State()
     confirmed = State()
     table_description = State()
+    date = State()
