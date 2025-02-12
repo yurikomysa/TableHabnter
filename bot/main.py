@@ -1,15 +1,13 @@
 import asyncio
 import locale
-
 from aiogram_dialog import setup_dialogs
-
 from bot.dao.init_logic import init_db
 from aiogram.types import BotCommand, BotCommandScopeDefault
 from loguru import logger
 from bot.config import bot, dp, settings
 from bot.dao.database_middleware import DatabaseMiddlewareWithoutCommit, DatabaseMiddlewareWithCommit
 from bot.user.router import router as user_router
-from bot.booking.add_booking import dialog as booking_dialog
+from bot.booking.dialog import booking_dialog
 
 
 # Функция, которая настроит командное меню (дефолтное для всех пользователей)
