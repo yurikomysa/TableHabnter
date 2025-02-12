@@ -36,7 +36,7 @@ def get_table_window() -> Window:
                 items="tables",
                 on_click=on_table_selected,
             ),
-            Back(),
+            Back(Const("Назад")),
             Cancel(on_click=cancel_dialog),
             id="tables_scrolling",
             width=1,
@@ -60,7 +60,7 @@ def get_date_window() -> Window:
                 min_date=date.today()
             )
         ),
-        Back(),
+        Back(Const("Назад")),
         Cancel(on_click=cancel_dialog),
         state=BookingState.booking_date,
     )
@@ -78,12 +78,12 @@ def get_slots_window() -> Window:
                 items="slots",
                 on_click=process_slotes_selected,
             ),
-            Back(),
-            Cancel(on_click=cancel_dialog),
             id="slotes_scrolling",
             width=2,
             height=3,
         ),
+        Back(Const("Назад")),
+        Cancel(on_click=cancel_dialog),
         getter=get_all_available_slots,
         state=BookingState.booking_time,
     )
