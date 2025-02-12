@@ -5,7 +5,7 @@ from app.config import settings
 router = RabbitRouter(url=settings.rabbitmq_url)
 
 
-@router.subscriber("new_booking")
+@router.subscriber("admin_msg")
 async def send_booking_msg(msg: str):
     for admin in settings.ADMIN_IDS:
         await bot.send_message(admin, text=msg)

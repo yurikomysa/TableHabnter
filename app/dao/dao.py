@@ -1,7 +1,9 @@
-from datetime import date
+from datetime import date, datetime
 from loguru import logger
-from sqlalchemy import select
+from sqlalchemy import select, update
 from sqlalchemy.exc import SQLAlchemyError
+from sqlalchemy.orm import joinedload
+
 from app.dao.base import BaseDAO
 from app.dao.models import User, TimeSlot, Table, Booking
 
@@ -72,3 +74,63 @@ class BookingDAO(BaseDAO[Booking]):
         except SQLAlchemyError as e:
             logger.error(f"Ошибка при получении доступных временных слотов: {e}")
 
+    async def get_bookings_with_details(self, user_id: int):
+        """
+        Получает список всех бронирований пользователя с полной информацией о столике и временном слоте.
+
+        :param user_id: ID пользователя, брони которого нужно получить.
+        :return: Список объектов Booking с загруженными данными о столе и времени.
+        """
+        try:
+            query = select(self.model).options(
+                joinedload(self.model.table),
+                joinedload(self.model.time_slot)
+            ).filter_by(user_id=user_id)
+            result = await self._session.execute(query)
+            return result.scalars().all()
+        except SQLAlchemyError as e:
+            logger.error(f"Ошибка при получении бронирований с деталями: {e}")
+            return []
+
+    async def complete_past_bookings(self):
+        """
+        Обновляет статус бронирований на 'completed', если дата и время бронирования уже прошли.
+        """
+        try:
+            # Получаем текущее время
+            now = datetime.now()
+            subquery = select(TimeSlot.start_time).where(TimeSlot.id == self.model.time_slot_id).scalar_subquery()
+            query = select(Booking.id).where(
+                Booking.date < now.date(),
+                self.model.status == "booked"
+            ).union_all(
+                select(Booking.id).where(
+                    self.model.date == now.date(),
+                    subquery < now.time(),
+                    self.model.status == "booked"
+                )
+            )
+
+            # Выполняем запрос и получаем id бронирований, которые нужно обновить
+            result = await self._session.execute(query)
+            booking_ids_to_update = result.scalars().all()
+
+            if booking_ids_to_update:
+                # Формируем запрос на обновление статуса бронирований
+                update_query = update(Booking).where(
+                    Booking.id.in_(booking_ids_to_update)
+                ).values(status="completed")
+
+                # Выполняем запрос на обновление
+                await self._session.execute(update_query)
+
+                # Подтверждаем изменения
+                await self._session.commit()
+
+                logger.info(f"Обновлен статус для {len(booking_ids_to_update)} бронирований на 'completed'")
+            else:
+                logger.info("Нет бронирований для обновления статуса.")
+
+        except SQLAlchemyError as e:
+            logger.error(f"Ошибка при обновлении статуса бронирований: {e}")
+            await self._session.rollback()

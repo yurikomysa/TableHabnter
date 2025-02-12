@@ -9,7 +9,7 @@ from aiogram_dialog import setup_dialogs
 from loguru import logger
 from app.bot.booking.dialog import booking_dialog
 from app.bot.user.router import router as user_router
-from app.config import settings, broker
+from app.config import settings
 from app.dao.database_middleware import DatabaseMiddlewareWithoutCommit, DatabaseMiddlewareWithCommit
 from app.dao.init_logic import init_db
 

@@ -849,3 +849,236 @@
 2025-02-12 at 16:48:53 | INFO | Update processed
 2025-02-12 at 16:57:42 | INFO | Shutting down bot...
 2025-02-12 at 16:57:43 | ERROR | Бот остановлен!
+2025-02-12 at 21:32:34 | INFO | Starting bot setup...
+2025-02-12 at 21:32:35 | INFO | Бот успешно запущен.
+2025-02-12 at 21:34:28 | INFO | Starting bot setup...
+2025-02-12 at 21:34:29 | INFO | Бот успешно запущен.
+2025-02-12 at 21:34:29 | SUCCESS | Webhook set to https://w6gb0x-178-155-31-12.ru.tuna.am/webhook
+2025-02-12 at 21:35:01 | INFO | Received webhook request
+2025-02-12 at 21:35:01 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 21:35:01 | INFO | Update processed
+2025-02-12 at 21:35:03 | INFO | Received webhook request
+2025-02-12 at 21:35:04 | INFO | Update processed
+2025-02-12 at 21:35:05 | INFO | Received webhook request
+2025-02-12 at 21:35:06 | INFO | Update processed
+2025-02-12 at 21:35:16 | INFO | Received webhook request
+2025-02-12 at 21:35:17 | INFO | Update processed
+2025-02-12 at 21:35:18 | INFO | Received webhook request
+2025-02-12 at 21:35:18 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 4}
+2025-02-12 at 21:35:18 | INFO | Найдено 2 записей.
+2025-02-12 at 21:35:19 | INFO | Update processed
+2025-02-12 at 21:35:20 | INFO | Received webhook request
+2025-02-12 at 21:35:21 | INFO | Update processed
+2025-02-12 at 21:35:21 | INFO | Received webhook request
+2025-02-12 at 21:35:21 | INFO | Запись Table с ID 7 найдена.
+2025-02-12 at 21:35:22 | INFO | Update processed
+2025-02-12 at 21:35:23 | INFO | Received webhook request
+2025-02-12 at 21:35:24 | INFO | Update processed
+2025-02-12 at 21:35:25 | INFO | Received webhook request
+2025-02-12 at 21:35:25 | INFO | Запись Table с ID 7 найдена.
+2025-02-12 at 21:35:26 | INFO | Update processed
+2025-02-12 at 21:35:27 | INFO | Received webhook request
+2025-02-12 at 21:35:28 | INFO | Update processed
+2025-02-12 at 21:35:29 | INFO | Received webhook request
+2025-02-12 at 21:35:30 | INFO | Update processed
+2025-02-12 at 21:35:31 | INFO | Received webhook request
+2025-02-12 at 21:35:31 | INFO | Запись TimeSlot с ID 9 найдена.
+2025-02-12 at 21:35:32 | INFO | Update processed
+2025-02-12 at 21:35:34 | INFO | Received webhook request
+2025-02-12 at 21:35:35 | INFO | Update processed
+2025-02-12 at 21:35:35 | INFO | Received webhook request
+2025-02-12 at 21:35:36 | INFO | Update processed
+2025-02-12 at 21:38:03 | INFO | Received webhook request
+2025-02-12 at 21:38:04 | INFO | Update processed
+2025-02-12 at 21:38:05 | INFO | Received webhook request
+2025-02-12 at 21:38:05 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 21:38:05 | INFO | Найдено 3 записей.
+2025-02-12 at 21:38:06 | INFO | Update processed
+2025-02-12 at 21:38:08 | INFO | Received webhook request
+2025-02-12 at 21:38:08 | INFO | Запись Table с ID 1 найдена.
+2025-02-12 at 21:38:09 | INFO | Update processed
+2025-02-12 at 21:38:11 | INFO | Received webhook request
+2025-02-12 at 21:38:12 | INFO | Update processed
+2025-02-12 at 21:38:14 | INFO | Received webhook request
+2025-02-12 at 21:38:15 | INFO | Update processed
+2025-02-12 at 21:38:16 | INFO | Received webhook request
+2025-02-12 at 21:38:16 | INFO | Update processed
+2025-02-12 at 21:38:22 | INFO | Received webhook request
+2025-02-12 at 21:38:23 | INFO | Update processed
+2025-02-12 at 21:38:24 | INFO | Received webhook request
+2025-02-12 at 21:38:26 | INFO | Update processed
+2025-02-12 at 21:46:38 | INFO | Shutting down bot...
+2025-02-12 at 21:46:39 | ERROR | Бот остановлен!
+2025-02-12 at 21:46:50 | INFO | Starting bot setup...
+2025-02-12 at 21:46:51 | INFO | Бот успешно запущен.
+2025-02-12 at 21:46:51 | SUCCESS | Webhook set to https://w6gb0x-178-155-31-12.ru.tuna.am/webhook
+2025-02-12 at 21:47:20 | INFO | Shutting down bot...
+2025-02-12 at 21:47:21 | ERROR | Бот остановлен!
+2025-02-12 at 21:47:44 | INFO | Starting bot setup...
+2025-02-12 at 21:47:45 | INFO | Бот успешно запущен.
+2025-02-12 at 21:47:45 | SUCCESS | Webhook set to https://w6gb0x-178-155-31-12.ru.tuna.am/webhook
+2025-02-12 at 21:48:09 | INFO | Received webhook request
+2025-02-12 at 21:48:09 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 21:48:09 | INFO | Update processed
+2025-02-12 at 21:48:10 | INFO | Received webhook request
+2025-02-12 at 21:48:11 | INFO | Update processed
+2025-02-12 at 21:48:12 | INFO | Received webhook request
+2025-02-12 at 21:48:12 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 4}
+2025-02-12 at 21:48:12 | INFO | Найдено 2 записей.
+2025-02-12 at 21:48:13 | INFO | Update processed
+2025-02-12 at 21:48:15 | INFO | Received webhook request
+2025-02-12 at 21:48:16 | INFO | Update processed
+2025-02-12 at 21:48:16 | INFO | Received webhook request
+2025-02-12 at 21:48:16 | INFO | Запись Table с ID 7 найдена.
+2025-02-12 at 21:48:17 | INFO | Update processed
+2025-02-12 at 21:48:19 | INFO | Received webhook request
+2025-02-12 at 21:48:20 | INFO | Update processed
+2025-02-12 at 21:48:21 | INFO | Received webhook request
+2025-02-12 at 21:48:21 | INFO | Запись TimeSlot с ID 4 найдена.
+2025-02-12 at 21:48:22 | INFO | Update processed
+2025-02-12 at 21:48:24 | INFO | Received webhook request
+2025-02-12 at 21:48:25 | INFO | Update processed
+2025-02-12 at 21:48:26 | INFO | Received webhook request
+2025-02-12 at 21:48:26 | INFO | Запись TimeSlot с ID 2 найдена.
+2025-02-12 at 21:48:27 | INFO | Update processed
+2025-02-12 at 21:48:29 | INFO | Received webhook request
+2025-02-12 at 21:48:29 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 7, 'time_slot_id': 2, 'date': datetime.date(2025, 2, 15), 'status': 'booked'}
+2025-02-12 at 21:48:29 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 21:48:31 | INFO | Update processed
+2025-02-12 at 21:51:32 | INFO | Shutting down bot...
+2025-02-12 at 21:51:33 | ERROR | Бот остановлен!
+2025-02-12 at 21:52:12 | INFO | Starting bot setup...
+2025-02-12 at 21:52:13 | INFO | Бот успешно запущен.
+2025-02-12 at 21:52:13 | SUCCESS | Webhook set to https://w6gb0x-178-155-31-12.ru.tuna.am/webhook
+2025-02-12 at 21:57:40 | INFO | Shutting down bot...
+2025-02-12 at 21:57:40 | ERROR | Бот остановлен!
+2025-02-12 at 21:59:01 | INFO | Starting bot setup...
+2025-02-12 at 21:59:02 | INFO | Бот успешно запущен.
+2025-02-12 at 21:59:02 | SUCCESS | Webhook set to https://w6gb0x-178-155-31-12.ru.tuna.am/webhook
+2025-02-12 at 22:11:18 | INFO | Starting bot setup...
+2025-02-12 at 22:11:19 | INFO | Бот успешно запущен.
+2025-02-12 at 22:11:20 | SUCCESS | Webhook set to https://w6gb0x-178-155-31-12.ru.tuna.am/webhook
+2025-02-12 at 22:11:27 | INFO | Received webhook request
+2025-02-12 at 22:11:27 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 22:11:28 | INFO | Update processed
+2025-02-12 at 22:11:29 | INFO | Received webhook request
+2025-02-12 at 22:11:30 | INFO | Update processed
+2025-02-12 at 22:11:31 | INFO | Received webhook request
+2025-02-12 at 22:11:33 | INFO | Update processed
+2025-02-12 at 22:11:33 | INFO | Received webhook request
+2025-02-12 at 22:11:33 | INFO | Поиск всех записей Booking по фильтрам: {'user_id': 5127841744}
+2025-02-12 at 22:11:33 | INFO | Найдено 7 записей.
+2025-02-12 at 22:11:34 | INFO | Update processed
+2025-02-12 at 22:25:57 | INFO | Starting bot setup...
+2025-02-12 at 22:25:58 | INFO | Бот успешно запущен.
+2025-02-12 at 22:25:58 | SUCCESS | Webhook set to https://w6gb0x-178-155-31-12.ru.tuna.am/webhook
+2025-02-12 at 22:26:11 | INFO | Received webhook request
+2025-02-12 at 22:26:14 | INFO | Update processed
+2025-02-12 at 22:32:05 | INFO | Starting bot setup...
+2025-02-12 at 22:32:06 | INFO | Бот успешно запущен.
+2025-02-12 at 22:32:06 | SUCCESS | Webhook set to https://w6gb0x-178-155-31-12.ru.tuna.am/webhook
+2025-02-12 at 22:32:08 | INFO | Received webhook request
+2025-02-12 at 22:32:08 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 22:32:08 | INFO | Update processed
+2025-02-12 at 22:32:13 | INFO | Received webhook request
+2025-02-12 at 22:32:13 | INFO | Поиск всех записей Booking по фильтрам: {'user_id': 5127841744}
+2025-02-12 at 22:32:13 | INFO | Найдено 7 записей.
+2025-02-12 at 22:32:14 | INFO | Update processed
+2025-02-12 at 22:32:16 | INFO | Received webhook request
+2025-02-12 at 22:32:18 | INFO | Update processed
+2025-02-12 at 22:34:16 | INFO | Starting bot setup...
+2025-02-12 at 22:34:17 | INFO | Бот успешно запущен.
+2025-02-12 at 22:34:17 | SUCCESS | Webhook set to https://w6gb0x-178-155-31-12.ru.tuna.am/webhook
+2025-02-12 at 22:34:19 | INFO | Received webhook request
+2025-02-12 at 22:34:19 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 22:34:19 | INFO | Update processed
+2025-02-12 at 22:34:21 | INFO | Received webhook request
+2025-02-12 at 22:34:21 | INFO | Update processed
+2025-02-12 at 22:34:23 | INFO | Received webhook request
+2025-02-12 at 22:34:24 | INFO | Update processed
+2025-02-12 at 22:34:25 | INFO | Received webhook request
+2025-02-12 at 22:34:25 | INFO | Поиск всех записей Booking по фильтрам: {'user_id': 5127841744}
+2025-02-12 at 22:34:25 | INFO | Найдено 7 записей.
+2025-02-12 at 22:34:25 | INFO | Update processed
+2025-02-12 at 22:34:30 | INFO | Received webhook request
+2025-02-12 at 22:34:33 | INFO | Update processed
+2025-02-12 at 22:37:47 | INFO | Starting bot setup...
+2025-02-12 at 22:37:49 | INFO | Бот успешно запущен.
+2025-02-12 at 22:37:49 | SUCCESS | Webhook set to https://w6gb0x-178-155-31-12.ru.tuna.am/webhook
+2025-02-12 at 22:37:52 | INFO | Received webhook request
+2025-02-12 at 22:37:52 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 22:37:53 | INFO | Update processed
+2025-02-12 at 22:37:56 | INFO | Received webhook request
+2025-02-12 at 22:37:56 | INFO | Поиск всех записей Booking по фильтрам: {'user_id': 5127841744}
+2025-02-12 at 22:37:56 | INFO | Найдено 7 записей.
+2025-02-12 at 22:37:57 | INFO | Update processed
+2025-02-12 at 22:37:59 | INFO | Received webhook request
+2025-02-12 at 22:38:02 | INFO | Update processed
+2025-02-12 at 22:40:16 | INFO | Starting bot setup...
+2025-02-12 at 22:40:17 | INFO | Бот успешно запущен.
+2025-02-12 at 22:40:17 | SUCCESS | Webhook set to https://w6gb0x-178-155-31-12.ru.tuna.am/webhook
+2025-02-12 at 22:40:21 | INFO | Received webhook request
+2025-02-12 at 22:40:24 | INFO | Update processed
+2025-02-12 at 22:40:28 | INFO | Received webhook request
+2025-02-12 at 22:40:28 | INFO | Update processed
+2025-02-12 at 23:00:35 | INFO | Starting bot setup...
+2025-02-12 at 23:00:36 | INFO | Бот успешно запущен.
+2025-02-12 at 23:00:36 | SUCCESS | Webhook set to https://w6gb0x-178-155-31-12.ru.tuna.am/webhook
+2025-02-12 at 23:01:16 | INFO | Received webhook request
+2025-02-12 at 23:01:16 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 23:01:17 | INFO | Update processed
+2025-02-12 at 23:01:18 | INFO | Received webhook request
+2025-02-12 at 23:01:19 | INFO | Update processed
+2025-02-12 at 23:01:21 | INFO | Received webhook request
+2025-02-12 at 23:01:21 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 23:01:21 | INFO | Найдено 3 записей.
+2025-02-12 at 23:01:22 | INFO | Update processed
+2025-02-12 at 23:01:23 | INFO | Received webhook request
+2025-02-12 at 23:01:23 | INFO | Запись Table с ID 1 найдена.
+2025-02-12 at 23:01:24 | INFO | Update processed
+2025-02-12 at 23:01:25 | INFO | Received webhook request
+2025-02-12 at 23:01:26 | INFO | Update processed
+2025-02-12 at 23:01:27 | INFO | Received webhook request
+2025-02-12 at 23:01:27 | INFO | Запись TimeSlot с ID 1 найдена.
+2025-02-12 at 23:01:28 | INFO | Update processed
+2025-02-12 at 23:01:30 | INFO | Received webhook request
+2025-02-12 at 23:01:30 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 1, 'time_slot_id': 1, 'date': datetime.date(2025, 2, 18), 'status': 'booked'}
+2025-02-12 at 23:01:30 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 23:01:32 | INFO | Update processed
+2025-02-12 at 23:03:16 | INFO | Starting bot setup...
+2025-02-12 at 23:03:17 | INFO | Бот успешно запущен.
+2025-02-12 at 23:03:17 | SUCCESS | Webhook set to https://w6gb0x-178-155-31-12.ru.tuna.am/webhook
+2025-02-12 at 23:03:20 | INFO | Received webhook request
+2025-02-12 at 23:03:21 | INFO | Update processed
+2025-02-12 at 23:03:23 | INFO | Received webhook request
+2025-02-12 at 23:03:23 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 23:03:23 | INFO | Найдено 3 записей.
+2025-02-12 at 23:03:24 | INFO | Update processed
+2025-02-12 at 23:03:24 | INFO | Received webhook request
+2025-02-12 at 23:03:24 | INFO | Запись Table с ID 1 найдена.
+2025-02-12 at 23:03:25 | INFO | Update processed
+2025-02-12 at 23:03:27 | INFO | Received webhook request
+2025-02-12 at 23:03:28 | INFO | Update processed
+2025-02-12 at 23:03:29 | INFO | Received webhook request
+2025-02-12 at 23:03:29 | INFO | Запись TimeSlot с ID 2 найдена.
+2025-02-12 at 23:03:30 | INFO | Update processed
+2025-02-12 at 23:03:30 | INFO | Received webhook request
+2025-02-12 at 23:03:31 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 1, 'time_slot_id': 2, 'date': datetime.date(2025, 2, 18), 'status': 'booked'}
+2025-02-12 at 23:03:31 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 23:03:34 | INFO | Received webhook request
+2025-02-12 at 23:03:35 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 1, 'time_slot_id': 2, 'date': datetime.date(2025, 2, 18), 'status': 'booked'}
+2025-02-12 at 23:03:35 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 23:03:40 | INFO | Received webhook request
+2025-02-12 at 23:03:40 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 1, 'time_slot_id': 2, 'date': datetime.date(2025, 2, 18), 'status': 'booked'}
+2025-02-12 at 23:03:40 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 23:03:49 | INFO | Received webhook request
+2025-02-12 at 23:40:53 | INFO | Starting bot setup...
+2025-02-12 at 23:40:54 | INFO | Бот успешно запущен.
+2025-02-12 at 23:41:34 | INFO | Starting bot setup...
+2025-02-12 at 23:41:35 | INFO | Бот успешно запущен.
+2025-02-12 at 23:41:35 | SUCCESS | Webhook set to https://w6gb0x-178-155-31-12.ru.tuna.am/webhook
+2025-02-12 at 23:41:45 | INFO | Ten-second task is running!
+2025-02-12 at 23:41:55 | INFO | Ten-second task is running!
+2025-02-12 at 23:42:05 | INFO | Ten-second task is running!
+2025-02-12 at 23:42:15 | INFO | Ten-second task is running!
+2025-02-12 at 23:42:25 | INFO | Ten-second task is running!
