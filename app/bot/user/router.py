@@ -5,10 +5,10 @@ from aiogram.types import Message, CallbackQuery
 from aiogram.dispatcher.router import Router
 from aiogram_dialog import DialogManager, StartMode
 from sqlalchemy.ext.asyncio import AsyncSession
-from bot.booking.state import BookingState
-from bot.dao.dao import UserDAO
-from bot.user.kbs import main_user_kb
-from bot.user.schemas import SUser
+from app.bot.booking.state import BookingState
+from app.bot.user.kbs import main_user_kb
+from app.bot.user.schemas import SUser
+from app.dao.dao import UserDAO
 
 router = Router()
 

@@ -1,8 +1,8 @@
 import json
 from sqlalchemy.ext.asyncio import AsyncSession
-from bot.config import settings
-from bot.dao.dao import TableDAO, TimeSlotUserDAO
-from bot.dao.database import async_session_maker
+from app.config import settings
+from app.dao.dao import TableDAO, TimeSlotUserDAO
+from app.dao.database import async_session_maker
 from pydantic import BaseModel
 
 

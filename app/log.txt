@@ -470,3 +470,382 @@
 2025-02-12 at 08:59:56 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
 2025-02-12 at 08:59:56 | INFO | Найдено 3 записей.
 2025-02-12 at 09:00:59 | ERROR | Бот остановлен!
+2025-02-12 at 11:15:35 | INFO | Бот успешно запущен.
+2025-02-12 at 11:15:40 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 11:17:51 | ERROR | Бот остановлен!
+2025-02-12 at 11:18:52 | INFO | Бот успешно запущен.
+2025-02-12 at 11:18:55 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 11:19:02 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 11:19:02 | INFO | Найдено 3 записей.
+2025-02-12 at 11:23:33 | ERROR | Бот остановлен!
+2025-02-12 at 11:23:43 | INFO | Бот успешно запущен.
+2025-02-12 at 11:23:45 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 11:36:02 | ERROR | Бот остановлен!
+2025-02-12 at 11:36:15 | INFO | Бот успешно запущен.
+2025-02-12 at 11:36:18 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 11:36:25 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 11:36:30 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 11:36:30 | INFO | Найдено 3 записей.
+2025-02-12 at 11:36:32 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 11:36:32 | INFO | Найдено 3 записей.
+2025-02-12 at 11:36:34 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 11:36:34 | INFO | Найдено 3 записей.
+2025-02-12 at 11:36:36 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 11:36:36 | INFO | Найдено 3 записей.
+2025-02-12 at 11:36:37 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 11:36:37 | INFO | Найдено 3 записей.
+2025-02-12 at 11:36:39 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 11:36:39 | INFO | Найдено 3 записей.
+2025-02-12 at 11:36:43 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 11:36:43 | INFO | Найдено 3 записей.
+2025-02-12 at 11:36:45 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 11:36:45 | INFO | Найдено 3 записей.
+2025-02-12 at 11:36:47 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 11:36:47 | INFO | Найдено 3 записей.
+2025-02-12 at 11:46:17 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 11:46:17 | INFO | Найдено 3 записей.
+2025-02-12 at 11:48:23 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 6}
+2025-02-12 at 11:48:23 | INFO | Найдено 2 записей.
+2025-02-12 at 12:27:20 | ERROR | Бот остановлен!
+2025-02-12 at 12:27:38 | INFO | Бот успешно запущен.
+2025-02-12 at 12:27:44 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 12:27:49 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 12:27:49 | INFO | Найдено 3 записей.
+2025-02-12 at 12:29:41 | ERROR | Бот остановлен!
+2025-02-12 at 12:29:55 | INFO | Бот успешно запущен.
+2025-02-12 at 12:30:00 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 12:30:04 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 12:30:04 | INFO | Найдено 3 записей.
+2025-02-12 at 12:30:36 | ERROR | Бот остановлен!
+2025-02-12 at 12:30:47 | INFO | Бот успешно запущен.
+2025-02-12 at 12:30:50 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 12:30:54 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 12:30:54 | INFO | Найдено 3 записей.
+2025-02-12 at 12:32:32 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 12:32:32 | INFO | Найдено 3 записей.
+2025-02-12 at 12:42:51 | ERROR | Бот остановлен!
+2025-02-12 at 12:43:17 | INFO | Бот успешно запущен.
+2025-02-12 at 12:43:23 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 12:43:27 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 12:43:27 | INFO | Найдено 3 записей.
+2025-02-12 at 12:43:31 | INFO | Запись Table с ID 4 найдена.
+2025-02-12 at 12:44:55 | ERROR | Бот остановлен!
+2025-02-12 at 12:45:06 | INFO | Бот успешно запущен.
+2025-02-12 at 12:45:09 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 12:45:14 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 12:45:14 | INFO | Найдено 3 записей.
+2025-02-12 at 12:45:18 | INFO | Запись Table с ID 4 найдена.
+2025-02-12 at 12:48:55 | ERROR | Бот остановлен!
+2025-02-12 at 12:49:06 | INFO | Бот успешно запущен.
+2025-02-12 at 12:49:10 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 12:49:14 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 12:49:14 | INFO | Найдено 3 записей.
+2025-02-12 at 12:49:18 | INFO | Запись Table с ID 4 найдена.
+2025-02-12 at 12:50:04 | ERROR | Бот остановлен!
+2025-02-12 at 12:50:19 | INFO | Бот успешно запущен.
+2025-02-12 at 12:50:22 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 12:50:27 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 4}
+2025-02-12 at 12:50:27 | INFO | Найдено 2 записей.
+2025-02-12 at 12:50:30 | INFO | Запись Table с ID 7 найдена.
+2025-02-12 at 12:50:49 | INFO | Запись Table с ID 4 найдена.
+2025-02-12 at 12:52:21 | ERROR | Бот остановлен!
+2025-02-12 at 12:52:33 | INFO | Бот успешно запущен.
+2025-02-12 at 12:52:37 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 12:52:40 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 12:52:40 | INFO | Найдено 3 записей.
+2025-02-12 at 12:52:44 | INFO | Запись Table с ID 4 найдена.
+2025-02-12 at 12:53:16 | INFO | Запись TimeSlot с ID 2 найдена.
+2025-02-12 at 12:56:14 | ERROR | Бот остановлен!
+2025-02-12 at 12:56:25 | INFO | Бот успешно запущен.
+2025-02-12 at 12:56:27 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 12:56:31 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 12:56:31 | INFO | Найдено 3 записей.
+2025-02-12 at 12:56:34 | INFO | Запись Table с ID 4 найдена.
+2025-02-12 at 12:56:40 | INFO | Запись TimeSlot с ID 4 найдена.
+2025-02-12 at 12:56:53 | INFO | Запись TimeSlot с ID 1 найдена.
+2025-02-12 at 12:57:16 | INFO | Запись TimeSlot с ID 2 найдена.
+2025-02-12 at 13:43:57 | ERROR | Бот остановлен!
+2025-02-12 at 13:44:09 | INFO | Бот успешно запущен.
+2025-02-12 at 13:44:13 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 13:44:18 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 3}
+2025-02-12 at 13:44:18 | INFO | Найдено 1 записей.
+2025-02-12 at 13:44:22 | INFO | Запись Table с ID 5 найдена.
+2025-02-12 at 13:44:28 | INFO | Запись TimeSlot с ID 5 найдена.
+2025-02-12 at 13:44:33 | INFO | Запись TimeSlot с ID 4 найдена.
+2025-02-12 at 13:44:42 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 5, 'time_slot_id': 4, 'date': datetime.date(2025, 2, 14), 'status': 'booked'}
+2025-02-12 at 13:44:42 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 13:45:19 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 13:45:32 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 3}
+2025-02-12 at 13:45:32 | INFO | Найдено 1 записей.
+2025-02-12 at 13:45:36 | INFO | Запись Table с ID 5 найдена.
+2025-02-12 at 13:46:17 | INFO | Запись TimeSlot с ID 6 найдена.
+2025-02-12 at 13:46:19 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 5, 'time_slot_id': 6, 'date': datetime.date(2025, 2, 14), 'status': 'booked'}
+2025-02-12 at 13:46:19 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 13:53:18 | ERROR | Бот остановлен!
+2025-02-12 at 13:53:31 | INFO | Бот успешно запущен.
+2025-02-12 at 13:53:36 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 13:53:40 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 3}
+2025-02-12 at 13:53:40 | INFO | Найдено 1 записей.
+2025-02-12 at 13:54:15 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 13:54:15 | INFO | Найдено 3 записей.
+2025-02-12 at 13:54:18 | INFO | Запись Table с ID 4 найдена.
+2025-02-12 at 13:55:12 | ERROR | Бот остановлен!
+2025-02-12 at 13:55:23 | INFO | Бот успешно запущен.
+2025-02-12 at 13:55:31 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 13:55:31 | INFO | Найдено 3 записей.
+2025-02-12 at 13:55:47 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 13:55:52 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 13:55:52 | INFO | Найдено 3 записей.
+2025-02-12 at 13:55:55 | INFO | Запись Table с ID 1 найдена.
+2025-02-12 at 13:58:07 | ERROR | Бот остановлен!
+2025-02-12 at 13:58:19 | INFO | Бот успешно запущен.
+2025-02-12 at 13:58:21 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 13:58:32 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 13:58:32 | INFO | Найдено 3 записей.
+2025-02-12 at 13:58:36 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 13:58:36 | INFO | Найдено 3 записей.
+2025-02-12 at 14:00:35 | ERROR | Бот остановлен!
+2025-02-12 at 14:00:46 | INFO | Бот успешно запущен.
+2025-02-12 at 14:00:47 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 14:00:51 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 14:00:51 | INFO | Найдено 3 записей.
+2025-02-12 at 14:00:54 | INFO | Запись Table с ID 4 найдена.
+2025-02-12 at 14:00:58 | INFO | Запись TimeSlot с ID 4 найдена.
+2025-02-12 at 14:03:16 | ERROR | Бот остановлен!
+2025-02-12 at 14:03:27 | INFO | Бот успешно запущен.
+2025-02-12 at 14:03:28 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 14:03:32 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 14:03:32 | INFO | Найдено 3 записей.
+2025-02-12 at 14:03:35 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 4}
+2025-02-12 at 14:03:35 | INFO | Найдено 2 записей.
+2025-02-12 at 14:03:43 | INFO | Запись Table с ID 7 найдена.
+2025-02-12 at 14:03:49 | INFO | Запись TimeSlot с ID 1 найдена.
+2025-02-12 at 14:03:52 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 7, 'time_slot_id': 1, 'date': datetime.date(2025, 2, 20), 'status': 'booked'}
+2025-02-12 at 14:03:52 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 14:04:28 | ERROR | Бот остановлен!
+2025-02-12 at 14:04:42 | INFO | Бот успешно запущен.
+2025-02-12 at 14:04:44 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 14:04:48 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 3}
+2025-02-12 at 14:04:48 | INFO | Найдено 1 записей.
+2025-02-12 at 14:04:50 | INFO | Запись Table с ID 5 найдена.
+2025-02-12 at 14:04:54 | INFO | Запись TimeSlot с ID 8 найдена.
+2025-02-12 at 14:04:57 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 5, 'time_slot_id': 8, 'date': datetime.date(2025, 2, 14), 'status': 'booked'}
+2025-02-12 at 14:04:57 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 14:05:44 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 14:05:44 | INFO | Найдено 3 записей.
+2025-02-12 at 14:05:46 | INFO | Запись Table с ID 1 найдена.
+2025-02-12 at 14:46:00 | ERROR | Бот остановлен!
+2025-02-12 at 15:07:17 | INFO | Бот успешно запущен.
+2025-02-12 at 15:07:17 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 16:01:41 | INFO | Starting bot setup...
+2025-02-12 at 16:01:42 | INFO | Бот успешно запущен.
+2025-02-12 at 16:01:42 | SUCCESS | Webhook set to https://vadx7j-85-175-194-59.ru.tuna.am/webhook
+2025-02-12 at 16:02:58 | INFO | Starting bot setup...
+2025-02-12 at 16:02:59 | INFO | Бот успешно запущен.
+2025-02-12 at 16:02:59 | SUCCESS | Webhook set to https://7mouof-85-175-194-59.ru.tuna.am/webhook
+2025-02-12 at 16:03:01 | INFO | Received webhook request
+2025-02-12 at 16:03:01 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 16:03:02 | INFO | Update processed
+2025-02-12 at 16:03:05 | INFO | Received webhook request
+2025-02-12 at 16:03:05 | INFO | Update processed
+2025-02-12 at 16:03:08 | INFO | Received webhook request
+2025-02-12 at 16:03:09 | INFO | Update processed
+2025-02-12 at 16:10:02 | INFO | Shutting down bot...
+2025-02-12 at 16:10:03 | ERROR | Бот остановлен!
+2025-02-12 at 16:10:10 | INFO | Starting bot setup...
+2025-02-12 at 16:10:11 | INFO | Бот успешно запущен.
+2025-02-12 at 16:10:11 | SUCCESS | Webhook set to https://7mouof-85-175-194-59.ru.tuna.am/webhook
+2025-02-12 at 16:21:21 | INFO | Shutting down bot...
+2025-02-12 at 16:21:22 | ERROR | Бот остановлен!
+2025-02-12 at 16:21:31 | INFO | Starting bot setup...
+2025-02-12 at 16:21:32 | INFO | Бот успешно запущен.
+2025-02-12 at 16:21:32 | SUCCESS | Webhook set to https://7mouof-85-175-194-59.ru.tuna.am/webhook
+2025-02-12 at 16:25:32 | INFO | Shutting down bot...
+2025-02-12 at 16:25:33 | ERROR | Бот остановлен!
+2025-02-12 at 16:25:40 | INFO | Starting bot setup...
+2025-02-12 at 16:25:41 | INFO | Бот успешно запущен.
+2025-02-12 at 16:25:41 | SUCCESS | Webhook set to https://7mouof-85-175-194-59.ru.tuna.am/webhook
+2025-02-12 at 16:25:59 | INFO | Received webhook request
+2025-02-12 at 16:25:59 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 16:25:59 | INFO | Update processed
+2025-02-12 at 16:26:01 | INFO | Received webhook request
+2025-02-12 at 16:26:02 | INFO | Update processed
+2025-02-12 at 16:26:03 | INFO | Received webhook request
+2025-02-12 at 16:26:03 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 16:26:03 | INFO | Найдено 3 записей.
+2025-02-12 at 16:26:04 | INFO | Update processed
+2025-02-12 at 16:26:05 | INFO | Received webhook request
+2025-02-12 at 16:26:05 | INFO | Запись Table с ID 1 найдена.
+2025-02-12 at 16:26:06 | INFO | Update processed
+2025-02-12 at 16:26:08 | INFO | Received webhook request
+2025-02-12 at 16:26:09 | INFO | Update processed
+2025-02-12 at 16:26:10 | INFO | Received webhook request
+2025-02-12 at 16:26:10 | INFO | Запись TimeSlot с ID 1 найдена.
+2025-02-12 at 16:26:11 | INFO | Update processed
+2025-02-12 at 16:26:12 | INFO | Received webhook request
+2025-02-12 at 16:26:12 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 1, 'time_slot_id': 1, 'date': datetime.date(2025, 2, 13), 'status': 'booked'}
+2025-02-12 at 16:26:12 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 16:26:13 | INFO | Received webhook request
+2025-02-12 at 16:26:14 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 1, 'time_slot_id': 1, 'date': datetime.date(2025, 2, 13), 'status': 'booked'}
+2025-02-12 at 16:26:14 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 16:26:16 | INFO | Received webhook request
+2025-02-12 at 16:26:17 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 1, 'time_slot_id': 1, 'date': datetime.date(2025, 2, 13), 'status': 'booked'}
+2025-02-12 at 16:26:17 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 16:26:21 | INFO | Received webhook request
+2025-02-12 at 16:26:22 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 1, 'time_slot_id': 1, 'date': datetime.date(2025, 2, 13), 'status': 'booked'}
+2025-02-12 at 16:26:22 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 16:26:30 | INFO | Received webhook request
+2025-02-12 at 16:26:47 | INFO | Received webhook request
+2025-02-12 at 16:27:19 | INFO | Received webhook request
+2025-02-12 at 16:28:01 | INFO | Shutting down bot...
+2025-02-12 at 16:28:02 | ERROR | Бот остановлен!
+2025-02-12 at 16:28:09 | INFO | Starting bot setup...
+2025-02-12 at 16:28:10 | INFO | Бот успешно запущен.
+2025-02-12 at 16:28:10 | SUCCESS | Webhook set to https://7mouof-85-175-194-59.ru.tuna.am/webhook
+2025-02-12 at 16:28:13 | INFO | Received webhook request
+2025-02-12 at 16:28:13 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 16:28:14 | INFO | Update processed
+2025-02-12 at 16:28:15 | INFO | Received webhook request
+2025-02-12 at 16:28:16 | INFO | Update processed
+2025-02-12 at 16:30:01 | INFO | Received webhook request
+2025-02-12 at 16:30:02 | INFO | Update processed
+2025-02-12 at 16:30:03 | INFO | Received webhook request
+2025-02-12 at 16:30:03 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 16:30:03 | INFO | Найдено 3 записей.
+2025-02-12 at 16:30:04 | INFO | Update processed
+2025-02-12 at 16:30:05 | INFO | Received webhook request
+2025-02-12 at 16:30:05 | INFO | Запись Table с ID 1 найдена.
+2025-02-12 at 16:30:06 | INFO | Update processed
+2025-02-12 at 16:30:08 | INFO | Received webhook request
+2025-02-12 at 16:30:09 | INFO | Update processed
+2025-02-12 at 16:30:10 | INFO | Received webhook request
+2025-02-12 at 16:30:10 | INFO | Запись TimeSlot с ID 1 найдена.
+2025-02-12 at 16:30:11 | INFO | Update processed
+2025-02-12 at 16:30:12 | INFO | Received webhook request
+2025-02-12 at 16:30:12 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 1, 'time_slot_id': 1, 'date': datetime.date(2025, 2, 13), 'status': 'booked'}
+2025-02-12 at 16:30:12 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 16:30:13 | INFO | Received webhook request
+2025-02-12 at 16:30:13 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 1, 'time_slot_id': 1, 'date': datetime.date(2025, 2, 13), 'status': 'booked'}
+2025-02-12 at 16:30:13 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 16:30:16 | INFO | Received webhook request
+2025-02-12 at 16:30:16 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 1, 'time_slot_id': 1, 'date': datetime.date(2025, 2, 13), 'status': 'booked'}
+2025-02-12 at 16:30:16 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 16:30:21 | INFO | Received webhook request
+2025-02-12 at 16:30:21 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 1, 'time_slot_id': 1, 'date': datetime.date(2025, 2, 13), 'status': 'booked'}
+2025-02-12 at 16:30:21 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 16:30:28 | INFO | Shutting down bot...
+2025-02-12 at 16:30:29 | ERROR | Бот остановлен!
+2025-02-12 at 16:33:24 | INFO | Starting bot setup...
+2025-02-12 at 16:33:25 | INFO | Бот успешно запущен.
+2025-02-12 at 16:33:25 | SUCCESS | Webhook set to https://7mouof-85-175-194-59.ru.tuna.am/webhook
+2025-02-12 at 16:33:27 | INFO | Received webhook request
+2025-02-12 at 16:33:28 | INFO | Update processed
+2025-02-12 at 16:33:29 | INFO | Received webhook request
+2025-02-12 at 16:33:29 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 4}
+2025-02-12 at 16:33:29 | INFO | Найдено 2 записей.
+2025-02-12 at 16:33:30 | INFO | Update processed
+2025-02-12 at 16:33:31 | INFO | Received webhook request
+2025-02-12 at 16:33:31 | INFO | Запись Table с ID 2 найдена.
+2025-02-12 at 16:33:32 | INFO | Update processed
+2025-02-12 at 16:33:37 | INFO | Received webhook request
+2025-02-12 at 16:33:38 | INFO | Update processed
+2025-02-12 at 16:33:39 | INFO | Received webhook request
+2025-02-12 at 16:33:39 | INFO | Запись TimeSlot с ID 6 найдена.
+2025-02-12 at 16:33:40 | INFO | Update processed
+2025-02-12 at 16:33:41 | INFO | Received webhook request
+2025-02-12 at 16:33:41 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 2, 'time_slot_id': 6, 'date': datetime.date(2025, 2, 13), 'status': 'booked'}
+2025-02-12 at 16:33:41 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 16:33:42 | INFO | Received webhook request
+2025-02-12 at 16:33:42 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 2, 'time_slot_id': 6, 'date': datetime.date(2025, 2, 13), 'status': 'booked'}
+2025-02-12 at 16:33:42 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 16:33:45 | INFO | Received webhook request
+2025-02-12 at 16:33:45 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 2, 'time_slot_id': 6, 'date': datetime.date(2025, 2, 13), 'status': 'booked'}
+2025-02-12 at 16:33:45 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 16:35:58 | INFO | Starting bot setup...
+2025-02-12 at 16:35:59 | INFO | Бот успешно запущен.
+2025-02-12 at 16:35:59 | SUCCESS | Webhook set to https://7mouof-85-175-194-59.ru.tuna.am/webhook
+2025-02-12 at 16:36:03 | INFO | Received webhook request
+2025-02-12 at 16:36:03 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 16:36:04 | INFO | Update processed
+2025-02-12 at 16:36:05 | INFO | Received webhook request
+2025-02-12 at 16:36:06 | INFO | Update processed
+2025-02-12 at 16:36:08 | INFO | Received webhook request
+2025-02-12 at 16:36:08 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 16:36:08 | INFO | Найдено 3 записей.
+2025-02-12 at 16:36:09 | INFO | Update processed
+2025-02-12 at 16:36:10 | INFO | Received webhook request
+2025-02-12 at 16:36:10 | INFO | Запись Table с ID 1 найдена.
+2025-02-12 at 16:36:11 | INFO | Update processed
+2025-02-12 at 16:36:12 | INFO | Received webhook request
+2025-02-12 at 16:36:13 | INFO | Update processed
+2025-02-12 at 16:36:14 | INFO | Received webhook request
+2025-02-12 at 16:36:14 | INFO | Запись TimeSlot с ID 3 найдена.
+2025-02-12 at 16:36:15 | INFO | Update processed
+2025-02-12 at 16:36:18 | INFO | Received webhook request
+2025-02-12 at 16:36:18 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 1, 'time_slot_id': 3, 'date': datetime.date(2025, 2, 19), 'status': 'booked'}
+2025-02-12 at 16:36:18 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 16:36:19 | INFO | Received webhook request
+2025-02-12 at 16:36:20 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 1, 'time_slot_id': 3, 'date': datetime.date(2025, 2, 19), 'status': 'booked'}
+2025-02-12 at 16:36:20 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 16:36:22 | INFO | Received webhook request
+2025-02-12 at 16:36:23 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 1, 'time_slot_id': 3, 'date': datetime.date(2025, 2, 19), 'status': 'booked'}
+2025-02-12 at 16:36:23 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 16:36:26 | INFO | Shutting down bot...
+2025-02-12 at 16:36:27 | ERROR | Бот остановлен!
+2025-02-12 at 16:45:22 | INFO | Starting bot setup...
+2025-02-12 at 16:45:23 | INFO | Бот успешно запущен.
+2025-02-12 at 16:45:23 | SUCCESS | Webhook set to https://7mouof-85-175-194-59.ru.tuna.am/webhook
+2025-02-12 at 16:45:29 | INFO | Received webhook request
+2025-02-12 at 16:45:29 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 16:45:29 | INFO | Update processed
+2025-02-12 at 16:45:30 | INFO | Received webhook request
+2025-02-12 at 16:45:31 | INFO | Update processed
+2025-02-12 at 16:45:32 | INFO | Received webhook request
+2025-02-12 at 16:45:32 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 16:45:32 | INFO | Найдено 3 записей.
+2025-02-12 at 16:45:33 | INFO | Update processed
+2025-02-12 at 16:45:34 | INFO | Received webhook request
+2025-02-12 at 16:45:34 | INFO | Запись Table с ID 1 найдена.
+2025-02-12 at 16:45:35 | INFO | Update processed
+2025-02-12 at 16:45:36 | INFO | Received webhook request
+2025-02-12 at 16:45:37 | INFO | Update processed
+2025-02-12 at 16:45:38 | INFO | Received webhook request
+2025-02-12 at 16:45:38 | INFO | Запись TimeSlot с ID 2 найдена.
+2025-02-12 at 16:45:39 | INFO | Update processed
+2025-02-12 at 16:45:41 | INFO | Received webhook request
+2025-02-12 at 16:45:41 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 1, 'time_slot_id': 2, 'date': datetime.date(2025, 2, 13), 'status': 'booked'}
+2025-02-12 at 16:45:41 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 16:45:42 | INFO | Update processed
+2025-02-12 at 16:46:43 | INFO | Shutting down bot...
+2025-02-12 at 16:46:43 | ERROR | Бот остановлен!
+2025-02-12 at 16:46:52 | INFO | Starting bot setup...
+2025-02-12 at 16:46:53 | INFO | Бот успешно запущен.
+2025-02-12 at 16:46:53 | SUCCESS | Webhook set to https://7mouof-85-175-194-59.ru.tuna.am/webhook
+2025-02-12 at 16:47:42 | INFO | Shutting down bot...
+2025-02-12 at 16:47:42 | ERROR | Бот остановлен!
+2025-02-12 at 16:48:03 | INFO | Starting bot setup...
+2025-02-12 at 16:48:04 | INFO | Бот успешно запущен.
+2025-02-12 at 16:48:04 | SUCCESS | Webhook set to https://7mouof-85-175-194-59.ru.tuna.am/webhook
+2025-02-12 at 16:48:40 | INFO | Received webhook request
+2025-02-12 at 16:48:40 | INFO | Запись User с ID 5127841744 найдена.
+2025-02-12 at 16:48:41 | INFO | Update processed
+2025-02-12 at 16:48:42 | INFO | Received webhook request
+2025-02-12 at 16:48:43 | INFO | Update processed
+2025-02-12 at 16:48:44 | INFO | Received webhook request
+2025-02-12 at 16:48:44 | INFO | Поиск всех записей Table по фильтрам: {'capacity': 2}
+2025-02-12 at 16:48:44 | INFO | Найдено 3 записей.
+2025-02-12 at 16:48:45 | INFO | Update processed
+2025-02-12 at 16:48:46 | INFO | Received webhook request
+2025-02-12 at 16:48:46 | INFO | Запись Table с ID 1 найдена.
+2025-02-12 at 16:48:47 | INFO | Update processed
+2025-02-12 at 16:48:48 | INFO | Received webhook request
+2025-02-12 at 16:48:49 | INFO | Update processed
+2025-02-12 at 16:48:50 | INFO | Received webhook request
+2025-02-12 at 16:48:50 | INFO | Запись TimeSlot с ID 1 найдена.
+2025-02-12 at 16:48:51 | INFO | Update processed
+2025-02-12 at 16:48:52 | INFO | Received webhook request
+2025-02-12 at 16:48:52 | INFO | Добавление записи Booking с параметрами: {'user_id': 5127841744, 'table_id': 1, 'time_slot_id': 1, 'date': datetime.date(2025, 2, 20), 'status': 'booked'}
+2025-02-12 at 16:48:52 | INFO | Запись Booking успешно добавлена.
+2025-02-12 at 16:48:53 | INFO | Update processed
+2025-02-12 at 16:57:42 | INFO | Shutting down bot...
+2025-02-12 at 16:57:43 | ERROR | Бот остановлен!

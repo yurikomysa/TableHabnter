@@ -1,16 +1,22 @@
-import asyncio
+# Инициализируем бота и диспетчер
 import locale
-from aiogram_dialog import setup_dialogs
-from bot.dao.init_logic import init_db
+from aiogram import Bot, Dispatcher
+from aiogram.client.default import DefaultBotProperties
+from aiogram.enums import ParseMode
+from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.types import BotCommand, BotCommandScopeDefault
+from aiogram_dialog import setup_dialogs
 from loguru import logger
-from bot.config import bot, dp, settings
-from bot.dao.database_middleware import DatabaseMiddlewareWithoutCommit, DatabaseMiddlewareWithCommit
-from bot.user.router import router as user_router
-from bot.booking.dialog import booking_dialog
+from app.bot.booking.dialog import booking_dialog
+from app.bot.user.router import router as user_router
+from app.config import settings, broker
+from app.dao.database_middleware import DatabaseMiddlewareWithoutCommit, DatabaseMiddlewareWithCommit
+from app.dao.init_logic import init_db
+
+bot = Bot(token=settings.BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
+dp = Dispatcher(storage=MemoryStorage())
 
 
-# Функция, которая настроит командное меню (дефолтное для всех пользователей)
 async def set_commands():
     commands = [BotCommand(command='start', description='Старт')]
     await bot.set_my_commands(commands, BotCommandScopeDefault())
@@ -44,19 +50,3 @@ async def stop_bot():
     except:
         pass
     logger.error("Бот остановлен!")
-
-
-async def main():
-    # регистрация функций
-    dp.startup.register(start_bot)
-    dp.shutdown.register(stop_bot)
-    # запуск бота в режиме long polling при запуске бот очищает все обновления, которые были за его моменты бездействия
-    try:
-        await bot.delete_webhook(drop_pending_updates=True)
-        await dp.start_polling(bot, allowed_updates=dp.resolve_used_update_types())
-    finally:
-        await bot.session.close()
-
-
-if __name__ == "__main__":
-    asyncio.run(main())

@@ -1,10 +1,9 @@
 import os
 from typing import List
+from urllib.parse import quote
+from faststream import FastStream
+from faststream.rabbit import RabbitBroker
 from loguru import logger
-from aiogram import Bot, Dispatcher
-from aiogram.enums import ParseMode
-from aiogram.fsm.storage.memory import MemoryStorage
-from aiogram.client.default import DefaultBotProperties
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -17,6 +16,26 @@ class Settings(BaseSettings):
     DB_URL: str = 'sqlite+aiosqlite:///data/db.sqlite3'
     TABLES_JSON: str = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dao", "tables.json")
     SLOTS_JSON: str = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dao", "slots.json")
+    BASE_URL: str
+
+    RABBITMQ_USERNAME: str
+    RABBITMQ_PASSWORD: str
+    RABBITMQ_HOST: str
+    RABBITMQ_PORT: int
+    VHOST: str
+
+    @property
+    def rabbitmq_url(self) -> str:
+        return (
+            f"amqp://{self.RABBITMQ_USERNAME}:{quote(self.RABBITMQ_PASSWORD)}@"
+            f"{self.RABBITMQ_HOST}:{self.RABBITMQ_PORT}/{self.VHOST}"
+        )
+
+    @property
+    def hook_url(self) -> str:
+        """Возвращает URL вебхука"""
+        return f"{self.BASE_URL}/webhook"
+
     model_config = SettingsConfigDict(
         env_file=os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".env")
     )
@@ -25,9 +44,6 @@ class Settings(BaseSettings):
 # Получаем параметры для загрузки переменных среды
 settings = Settings()
 
-# Инициализируем бота и диспетчер
-bot = Bot(token=settings.BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
-dp = Dispatcher(storage=MemoryStorage())
-
 log_file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "log.txt")
 logger.add(log_file_path, format=settings.FORMAT_LOG, level="INFO", rotation=settings.LOG_ROTATION)
+broker = RabbitBroker(url=settings.rabbitmq_url)

@@ -1,7 +1,7 @@
 from datetime import datetime
 from sqlalchemy import BigInteger, String
-from bot.dao.database import Base
-from sqlalchemy import Integer, Date, Boolean, ForeignKey
+from app.dao.database import Base
+from sqlalchemy import Integer, Date, ForeignKey
 from sqlalchemy.orm import relationship, Mapped, mapped_column
 
 

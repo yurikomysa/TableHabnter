@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import date
 from pydantic import BaseModel
 
 
@@ -10,5 +10,5 @@ class SNevBooking(BaseModel):
     user_id: int
     table_id: int
     time_slot_id: int
-    date: datetime
-    status: int
+    date: date
+    status: str

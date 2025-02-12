@@ -1,10 +1,11 @@
 from datetime import date, timedelta, timezone
 from aiogram_dialog import Window
 from aiogram_dialog.widgets.kbd import Button, Group, ScrollingGroup, Select, Calendar, CalendarConfig, Back, Cancel
-from aiogram_dialog.widgets.text import Const, Format, Jinja
-from bot.booking.handlers import (process_add_count_capacity, on_table_selected, get_all_tables, process_date_selected,
-                                  get_all_available_slots, process_slotes_selected, cancel_dialog)
-from bot.booking.state import BookingState
+from aiogram_dialog.widgets.text import Const, Format
+from app.bot.booking.getters import get_all_tables, get_all_available_slots, get_confirmed_data
+from app.bot.booking.handlers import (process_add_count_capacity, on_table_selected,
+                                      process_date_selected, process_slots_selected, on_confirmation, cancel_logic)
+from app.bot.booking.state import BookingState
 
 
 def get_capacity_window() -> Window:
@@ -17,7 +18,7 @@ def get_capacity_window() -> Window:
                 id=str(i),
                 on_click=process_add_count_capacity
             ) for i in range(1, 7)],
-            Cancel(on_click=cancel_dialog),
+            Cancel(Const("Отмена"), on_click=cancel_logic),
             width=2
         ),
         state=BookingState.count
@@ -27,7 +28,7 @@ def get_capacity_window() -> Window:
 def get_table_window() -> Window:
     """Окно выбора стола."""
     return Window(
-        Format("{dialog_data[text_table]}"),
+        Format("{text_table}"),
         ScrollingGroup(
             Select(
                 Format("Стол №{item[id]} - {item[description]}"),
@@ -36,11 +37,14 @@ def get_table_window() -> Window:
                 items="tables",
                 on_click=on_table_selected,
             ),
-            Back(Const("Назад")),
-            Cancel(on_click=cancel_dialog),
             id="tables_scrolling",
             width=1,
             height=1,
+        ),
+        Group(
+            Back(Const("Назад")),
+            Cancel(Const("Отмена"), on_click=cancel_logic),
+            width=2
         ),
         getter=get_all_tables,
         state=BookingState.table,
@@ -61,7 +65,7 @@ def get_date_window() -> Window:
             )
         ),
         Back(Const("Назад")),
-        Cancel(on_click=cancel_dialog),
+        Cancel(Const("Отмена"), on_click=cancel_logic),
         state=BookingState.booking_date,
     )
 
@@ -69,21 +73,21 @@ def get_date_window() -> Window:
 def get_slots_window() -> Window:
     """Окно выбора слота."""
     return Window(
-        Format("{dialog_data[text_slots]}"),
+        Format("{text_slots}"),
         ScrollingGroup(
             Select(
                 Format("{item[start_time]} до {item[end_time]}"),
                 id="slotes_select",
                 item_id_getter=lambda item: str(item["id"]),
                 items="slots",
-                on_click=process_slotes_selected,
+                on_click=process_slots_selected,
             ),
             id="slotes_scrolling",
             width=2,
             height=3,
         ),
         Back(Const("Назад")),
-        Cancel(on_click=cancel_dialog),
+        Cancel(Const("Отмена"), on_click=cancel_logic),
         getter=get_all_available_slots,
         state=BookingState.booking_time,
     )
@@ -91,11 +95,12 @@ def get_slots_window() -> Window:
 
 def get_confirmed_windows():
     return Window(
-        Jinja("{dialog_data[confirmed_text]}"),
+        Format("{confirmed_text}"),
         Group(
-            Button(Const("Все верно"), id="confirm"),
-            Back(),
-            Cancel(on_click=cancel_dialog),
+            Button(Const("Все верно"), id="confirm", on_click=on_confirmation),
+            Back(Const("Назад")),
+            Cancel(Const("Отмена"), on_click=cancel_logic),
         ),
-        state=BookingState.confirmation
+        state=BookingState.confirmation,
+        getter=get_confirmed_data
     )
