@@ -82,8 +82,8 @@ async def on_confirmation(callback: CallbackQuery, widget, dialog_manager: Dialo
 
         admin_text = (f"Внимание! Пользователь с ID {callback.from_user.id} забронировал столик  №{selected_table.id} "
                       f"на {booking_date}. Время брони с {selected_slot.start_time} до {selected_slot.end_time}")
-
         await broker.publish(admin_text, "admin_msg")
+        await broker.publish(callback.from_user.id, "noti_user")
         await dialog_manager.done()
     else:
         await callback.answer("Места на этот слот уже заняты!")

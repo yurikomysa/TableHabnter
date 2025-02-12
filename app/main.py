@@ -1,11 +1,10 @@
 from contextlib import asynccontextmanager
-from app.api.scheduler_task import disable_booking
 from app.bot.create_bot import dp, start_bot, bot, stop_bot
 from app.config import settings, broker, scheduler
 from aiogram.types import Update
 from fastapi import FastAPI, Request
 from loguru import logger
-from app.api.router import router as router_fast_stream
+from app.api.router import router as router_fast_stream, disable_booking
 
 
 @asynccontextmanager
