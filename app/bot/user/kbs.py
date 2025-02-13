@@ -1,6 +1,5 @@
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.utils.keyboard import InlineKeyboardBuilder
-
 from app.config import settings
 
 
@@ -34,6 +33,7 @@ def cancel_book_kb(book_id: int, cancel: bool = False, home_page: bool = False) 
     kb = InlineKeyboardBuilder()
     if cancel:
         kb.add(InlineKeyboardButton(text="Отменить бронь", callback_data=f"cancel_book_{book_id}"))
+    kb.add(InlineKeyboardButton(text="Удалить запись", callback_data=f"dell_book_{book_id}"))
     if home_page:
         kb.add(InlineKeyboardButton(text="🏠 На главную", callback_data="back_home"))
     kb.adjust(1)

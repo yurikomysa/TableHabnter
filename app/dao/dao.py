@@ -1,6 +1,8 @@
 from datetime import date, datetime
+from typing import Dict
+
 from loguru import logger
-from sqlalchemy import select, update
+from sqlalchemy import select, update, delete, func
 from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.orm import joinedload
 
@@ -134,3 +136,56 @@ class BookingDAO(BaseDAO[Booking]):
         except SQLAlchemyError as e:
             logger.error(f"Ошибка при обновлении статуса бронирований: {e}")
             await self._session.rollback()
+
+    async def cancel_book(self, book_id: int):
+        try:
+            query = (
+                update(self.model)
+                .filter_by(id=book_id)
+                .values(status="canceled")
+                .execution_options(synchronize_session="fetch")
+            )
+            result = await self._session.execute(query)
+            await self._session.flush()
+            return result.rowcount
+        except SQLAlchemyError as e:
+            logger.error(f"Ошибка при отмене книги с ID {book_id}: {e}")
+            await self._session.rollback()
+            raise
+
+    async def delete_book(self, book_id: int):
+        try:
+            query = delete(self.model).filter_by(id=book_id)
+            result = await self._session.execute(query)
+            logger.info(f"Удалено {result.rowcount} записей.")
+            await self._session.flush()
+            return result.rowcount
+        except SQLAlchemyError as e:
+            logger.error(f"Ошибка при удалении записей: {e}")
+            raise
+
+    async def book_count(self) -> Dict[str, int]:
+        """
+        Подсчитывает количество заявок по каждому статусу (booked, completed, canceled).
+        """
+        try:
+            status_counts = {}
+            statuses = ["booked", "completed", "canceled"]
+
+            for status in statuses:
+                query = select(func.count(self.model.id)).where(self.model.status == status)
+                result = await self._session.execute(query)
+                count = result.scalar()
+                status_counts[status] = count
+                logger.info(f"Найдено {count} заявок со статусом '{status}'.")
+
+            total_query = select(func.count(self.model.id))
+            total_result = await self._session.execute(total_query)
+            total_count = total_result.scalar()
+            status_counts['total'] = total_count
+            logger.info(f"Всего найдено {total_count} заявок.")
+
+            return status_counts
+        except SQLAlchemyError as e:
+            logger.error(f"Ошибка при подсчете заявок по статусам: {e}")
+            raise
